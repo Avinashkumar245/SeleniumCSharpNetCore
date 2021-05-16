@@ -19,16 +19,21 @@ namespace Seleinum
            
             driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com/");
             driver.Manage().Window.Maximize();
-            IWebElement element=driver.FindElement(By.Id("ContentPlaceHolder1_Meal"));
-            element.SendKeys("Tomato");
+            //IWebElement element=driver.FindElement(By.Id("ContentPlaceHolder1_Meal"));
+            //element.SendKeys("Tomato");
+            CustomControl.EnterText(driver.FindElement(By.Id("ContentPlaceHolder1_Meal")), "Tomato");
 
-            IWebElement celery = driver.FindElement(By.XPath("//*[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']"));
-            celery.Click();
+            //IWebElement celery = driver.FindElement(By.XPath("//*[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']"));
+            //celery.Click();
+
+            CustomControl.Click(driver.FindElement(By.XPath("//*[@name='ctl00$ContentPlaceHolder1$ChildMeal1']/following-sibling::div[text()='Celery']")));
 
             string comboboxxControlname = "ContentPlaceHolder1_AllMealsCombo";
 
             
             CustomControl.ComboBox(comboboxxControlname, "Mango");
+
+            CustomControl.SelectByValues(driver.FindElement(By.Id("ContentPlaceHolder1_Add1-awed")), "Celery");
 
             //IWebElement combobox = driver.FindElement(By.XPath("//input[@id='ContentPlaceHolder1_AllMealsCombo-awed']"));
             //combobox.Clear();

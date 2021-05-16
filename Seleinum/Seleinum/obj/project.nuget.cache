@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GrP4xfG82iCMve9xdL7rrHZ307oj2LJjuoHqiNVJVHvidFfK9dUKHZSTdMbPWpNQrq/+g47Yqe2DRIDgEBGsvA==",
+  "dgSpecHash": "Tr8b0tE1adJIgmw0JvLUwkfcfq4RwvxebCxDIfr25PR4xEH2/iDgx3dCtFhNT76ioOPMqNi5GimaOsCQv8nBDA==",
   "success": true,
-  "projectFilePath": "D:\\PersonalStuff\\MyDocument\\2021\\Seleniumc#EA\\Seleinum\\Seleinum\\Seleinum.csproj",
+  "projectFilePath": "D:\\PersonalStuff\\MyDocument\\2021\\GitHubRepo\\SeleniumCSharpNetCore\\Seleinum\\Seleinum\\Seleinum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\z003sxph\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\z003sxph\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
@@ -20,6 +20,7 @@
     "C:\\Users\\z003sxph\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\z003sxph\\.nuget\\packages\\nunit3testadapter\\3.15.1\\nunit3testadapter.3.15.1.nupkg.sha512",
     "C:\\Users\\z003sxph\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\z003sxph\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\z003sxph\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
     "C:\\Users\\z003sxph\\.nuget\\packages\\selenium.webdriver.chromedriver\\90.0.4430.2400\\selenium.webdriver.chromedriver.90.0.4430.2400.nupkg.sha512",
     "C:\\Users\\z003sxph\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
