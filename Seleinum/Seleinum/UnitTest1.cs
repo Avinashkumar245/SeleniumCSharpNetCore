@@ -37,7 +37,7 @@ namespace Seleinum
             //driver.FindElement(By.XPath("//div[@id='ContentPlaceHolder1_AllMealsCombo-dropmenu']//li[text()='Mango']")).Click();
 
 
-            Assert.Pass();
+            
         }
     }
 }
